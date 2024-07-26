@@ -5,6 +5,24 @@ import { motion } from "framer-motion";
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
+      <style>
+        {`
+          .custom-scrollbar::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+          }
+          .custom-scrollbar::-webkit-scrollbar-track {
+            background: #1a1a1a;
+          }
+          .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #ff69b4;
+            border-radius: 4px;
+          }
+          .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #ff85c1;
+          }
+        `}
+      </style>
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -13,7 +31,7 @@ const Projects = () => {
       >
         Projects
       </motion.h2>
-      <div className="overflow-x-auto">
+      <div className="overflow-x-auto px-4 custom-scrollbar">
         <div className="flex flex-nowrap">
           <div className="grid grid-cols-2 gap-8 p-4 flex-none">
             {PROJECTS.map((project, index) => (

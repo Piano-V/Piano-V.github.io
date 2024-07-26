@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { SPECIALIZATIONS, CERTIFICATIONS } from '../constants';
-import { motion } from 'framer-motion';
+import { SPECIALIZATIONS, CERTIFICATIONS } from "../constants";
+import { motion } from "framer-motion";
 
 const Certifications = () => {
   const [activeTab, setActiveTab] = useState("specializations");
@@ -27,6 +27,10 @@ const Certifications = () => {
           .custom-scrollbar::-webkit-scrollbar-thumb:hover {
             background: #ff85c1;
           }
+          .certificates-container {
+            max-height: 500px; /* Adjust this height based on your design */
+            overflow-y: auto;
+          }
         `}
       </style>
       <motion.h2
@@ -51,7 +55,7 @@ const Certifications = () => {
           Course Certifications
         </button>
       </div>
-      <div className="overflow-x-auto px-4 custom-scrollbar">
+      <div className="certificates-container custom-scrollbar px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {activeTab === "specializations"
             ? SPECIALIZATIONS.map((spec, index) => (
