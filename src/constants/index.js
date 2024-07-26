@@ -3,6 +3,23 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
+import googlePythonCert from '../assets/certificates/Google Crash Course on Python Cert.png';
+import fundamentalsDeepLearningCert from '../assets/certificates/NVIDIA Fundamentals of Deep Learning Cert.png';
+import dataScienceCert from '../assets/certificates/What is Data Science Cert.png';
+import neuralNetworksCert from '../assets/certificates/Neural Networks Cert.png';
+import improvingNeuralNetworksCert from '../assets/certificates/Improving Neural Networks Cert.png';
+import structuringMachineLearningCert from '../assets/certificates/Structuring Machine Learning Cert.png';
+import cnnCert from '../assets/certificates/CNN Cert.png';
+import sequenceModelsCert from '../assets/certificates/Sequence Models Cert.png';
+import supervisedLearningCert from '../assets/certificates/Supervised Learning Cert.png';
+import advancedLearningAlgorithmsCert from '../assets/certificates/Advanced Learning Algorithms Cert.png';
+import unsupervisedLearningCert from '../assets/certificates/Unsupervised Learning, Recommenders, Reinforcement Learning Cert.png';
+import objectLocalizationCert from '../assets/certificates/Object Localization Cert.png';
+import azureVMDeployCert from '../assets/certificates/Azure Create And Deploy Virtual Machine Cert.png';
+
+import deepLearningSpecializationCert from '../assets/certificates/Deep Learning Cert.png';
+import machineLearningSpecializationCert from '../assets/certificates/Machine Learning Specialization.png';
+
 export const HERO_CONTENT = `Welcome to my portfolio! I am a 4th-year B.Tech in Computer Science student with a strong passion for software engineering, data science, and AI. My journey has been driven by a fascination with the transformative power of technology, particularly in machine learning, data science and generative AI. I am excited about the possibilities in these fields and eager to contribute to innovative solutions.
 `;
 
@@ -80,88 +97,91 @@ export const CONTACT = {
   email: "abhinav8air@gmail.com",
 };
 
+// Certificates
 export const CERTIFICATIONS = [
   {
     title: "Crash Course on Python",
-    image: "src/assets/certificates/Google Crash Course on Python Cert.png",
-    link: "https://coursera.org/share/88d39b22e827b793091f5dc300a8bbac" // URL to the certification
+    image: googlePythonCert,
+    link: "https://coursera.org/share/88d39b22e827b793091f5dc300a8bbac"
   },
   {
     title: "Fundamentals of Deep Learning",
-    image: "src/assets/certificates/NVIDIA Fundamentals of Deep Learning Cert.png",
-    link: "https://learn.nvidia.com/certificates?id=QbMuArd_Sd-0L1RZLZ58JQ" // URL to the certification
+    image: fundamentalsDeepLearningCert,
+    link: "https://learn.nvidia.com/certificates?id=QbMuArd_Sd-0L1RZLZ58JQ"
   },
   {
     title: "What is Data Science?",
-    image: "src/assets/certificates/What is Data Science Cert.png",
-    link: "https://coursera.org/share/f535c76832b41bfa81b6c276cf528c71" // URL to the certification
+    image: dataScienceCert,
+    link: "https://coursera.org/share/f535c76832b41bfa81b6c276cf528c71"
   },
   {
     title: "Neural Networks and Deep Learning",
-    image: "src/assets/certificates/Neural Networks Cert.png",
-    link: "https://coursera.org/share/4b662e2e79c41aa444dc51a115a2ccee" // URL to the certification
+    image: neuralNetworksCert,
+    link: "https://coursera.org/share/4b662e2e79c41aa444dc51a115a2ccee"
   },
   {
     title: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
-    image: "src/assets/certificates/Improving Neural Networks Cert.png",
-    link: "https://coursera.org/share/a07d4c4b8abe8e9c0d0a2a614010d812" // URL to the certification
+    image: improvingNeuralNetworksCert,
+    link: "https://coursera.org/share/a07d4c4b8abe8e9c0d0a2a614010d812"
   },
   {
     title: "Structuring Machine Learning Projects",
-    image: "src/assets/certificates/Structuring Machine Learning Cert.png",
-    link: "https://coursera.org/share/541f0d97e76a5ad69a3a6107eb60c6ba" // URL to the certification
+    image: structuringMachineLearningCert,
+    link: "https://coursera.org/share/541f0d97e76a5ad69a3a6107eb60c6ba"
   },
   {
     title: "Convolutional Neural Networks",
-    image: "src/assets/certificates/CNN Cert.png",
-    link: "https://coursera.org/share/87817687dcfaa951055c2a8c40b4aea3" // URL to the certification
+    image: cnnCert,
+    link: "https://coursera.org/share/87817687dcfaa951055c2a8c40b4aea3"
   },
   {
     title: "Sequence Models",
-    image: "src/assets/certificates/Sequence Models Cert.png",
-    link: "https://coursera.org/share/1a27a2b756eaa4a507c3c4c5fccdddd0" // URL to the certification
+    image: sequenceModelsCert,
+    link: "https://coursera.org/share/1a27a2b756eaa4a507c3c4c5fccdddd0"
   },
   {
     title: "Supervised Machine Learning: Regression and Classification",
-    image: "src/assets/certificates/Supervised Learning Cert.png",
-    link: "https://coursera.org/share/8ff7738cfdf18435e46e768ece35d1e0" // URL to the certification
+    image: supervisedLearningCert,
+    link: "https://coursera.org/share/8ff7738cfdf18435e46e768ece35d1e0"
   },
   {
     title: "Advanced Learning Algorithms",
-    image: "src/assets/certificates/Advanced Learning Algorithms Cert.png",
-    link: "https://coursera.org/share/4698dc80ae568746abc0a5e3c4c89616" // URL to the certification
+    image: advancedLearningAlgorithmsCert,
+    link: "https://coursera.org/share/4698dc80ae568746abc0a5e3c4c89616"
   },
   {
     title: "Unsupervised Learning, Recommenders, Reinforcement Learning",
-    image: "src/assets/certificates/Unsupervised Learning, Recommenders, Reinforcement Learning Cert.png",
-    link: "https://coursera.org/share/b19009dd8b27919033c5793827c99e8a" // URL to the certification
+    image: unsupervisedLearningCert,
+    link: "https://coursera.org/share/b19009dd8b27919033c5793827c99e8a"
   },
   {
     title: "Object Localization with TensorFlow",
-    image: "src/assets/certificates/Object Localization Cert.png",
-    link: "https://coursera.org/share/24d2dc7862bd6e09dd455967e8731f67" // URL to the certification
+    image: objectLocalizationCert,
+    link: "https://coursera.org/share/24d2dc7862bd6e09dd455967e8731f67"
   },
   {
     title: "Azure: Create a Virtual Machine and Deploy a Web Server",
-    image: "src/assets/certificates/Azure Create And Deploy Virtual Machine Cert.png",
-    link: "https://coursera.org/share/2da18c0493e7a841237b7bcca15e5256" // URL to the certification
-  },
+    image: azureVMDeployCert,
+    link: "https://coursera.org/share/2da18c0493e7a841237b7bcca15e5256"
+  }
   // Add more certifications here
 ];
 
+// Specializations
 export const SPECIALIZATIONS = [
   {
     title: "Deep Learning Specialization",
-    image: "src/assets/certificates/Deep Learning Cert.png",
-    link: "https://coursera.org/share/7f2ce5c29a5bda77ddfa6cfe1eeea106" // URL to the certification
+    image: deepLearningSpecializationCert,
+    link: "https://coursera.org/share/7f2ce5c29a5bda77ddfa6cfe1eeea106"
   },
   {
     title: "Machine Learning Specialization",
-    image: "src/assets/certificates/Machine Learning Specialization.png",
-    link: "https://coursera.org/share/46a9d3a381b02d5164d437bbd1040d56", // URL to the certification
-  },
+    image: machineLearningSpecializationCert,
+    link: "https://coursera.org/share/46a9d3a381b02d5164d437bbd1040d56"
+  }
   // Add more specializations here
 ];
+
 
 
 export const EDUCATION = [

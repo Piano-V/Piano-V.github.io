@@ -1,7 +1,6 @@
-import React from 'react';
-import { useState } from "react";
-import { SPECIALIZATIONS, CERTIFICATIONS } from "../constants";
-import { motion } from "framer-motion";
+import React, { useState } from 'react';
+import { SPECIALIZATIONS, CERTIFICATIONS } from '../constants';
+import { motion } from 'framer-motion';
 
 const Certifications = () => {
   const [activeTab, setActiveTab] = useState("specializations");
