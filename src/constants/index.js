@@ -62,32 +62,39 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Tennis Match Analysis System",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Tennis Match Analysis System that utilizes YOLOv8 for player and ball detection and tracking, enhancing performance analysis",
+    technologies: ["Computer Vision", "CNNs", "Python", "YOLOv8", "cv2", "CNNs"],
   },
   {
-    title: "Task Management App",
+    title: "Document GPT",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "RAG-GPT (Retrieval-Augmented Generation) based document chatbot using Google Gemini, Langchain, and ChromaDB, enabling real-time document uploads",
+    technologies: ["Generative AI", "RAG", "Langchain", "Python", "Hugging Face", "Google Gemini"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A personal portfolio website showcasing projects, skills, certifications, and contact information.",
+    technologies: ["HTML", "Tailwind CSS", "React", "JavaScript"],
   },
   {
-    title: "Blogging Platform",
+    title: "SQL Database Talk",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "LLM system for a retail inventory database using Gemini and LangChain, enabling natural language queries to be converted into SQL and executed on a MySQL database",
+    technologies: ["RAG", "mySQL", "Python", "Langchain", "Few-Shot Learning"],
+  },
+  {
+    title: "Mall Customer Segmentation",
+    image: project4,
+    description:
+      "Descriptive statistical analysis to understand data distribution. Visualized customer attributes (age, gender, income, spending score) using bar plots, pie charts, histograms, and density plots",
+    technologies: ["Python", "Pandas", "Scikit-learn", "matplotlib", "seaborn"],
   },
 ];
 
@@ -210,16 +217,17 @@ export const SKILLS = {
   Languages: [
     { name: 'Python' },
     { name: 'C++' },
-    { name: 'R' },
-    { name: 'C#' },
+    // { name: 'R' },
+    // { name: 'C#' },
     { name: 'C' },
     { name: 'HTML' },
     { name: 'CSS' },
-    { name: 'JavaScript' },
+    // { name: 'JavaScript' },
     { name: 'SQL' }
   ],
   Frameworks_and_Technologies: [
     { name: 'TensorFlow' },
+    { name: 'PyTorch' },
     { name: 'LangChain' },
     { name: 'Flask' },
     { name: 'OpenAI' },
